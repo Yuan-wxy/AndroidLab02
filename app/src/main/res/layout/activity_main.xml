@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btn_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开线性布局页面" />
+
+    <Button
+        android:id="@+id/btn_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="打开表格布局页面" />
+
+    <Button
+        android:id="@+id/btn_constraint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="打开约束布局计算器" />
+
+    <Button
+        android:id="@+id/btn_space_travel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="打开太空旅行约束布局" />
+
+    <Button
+        android:id="@+id/btn_todo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compose任务清单" />
+
+</LinearLayout>
